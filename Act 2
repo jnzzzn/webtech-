@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System</title>
+</head>
+    <hr>
+    <br>
+    <h1 style="color: rgb(5, 59, 59);font-size: 30px;text-align: center;">Jienzen B. Espino</h1>
+    <h2 style="color: rgb(5, 59, 59);font-size: 30px;text-align: center;">BSCS - 201</h2>
+    <br>
+    <hr>
+    <style>
+        .grid-container1 {
+         display: grid;
+         grid-column: span;
+        gap: 20px;
+        background-color: #08406d;
+        padding: 10px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    </style>
+    
+    <style>
+      
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #08406d;
+      padding: 10px;
+    }
+    .grid-item {
+      background-color: rgba(103, 148, 140, 0.973);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;   
+      text-align: center;
+    }
+    .grid-item1 {
+      background-color: rgba(178, 207, 202, 0.973);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font: bolder;
+    }
+    </style>
+
+
+    
+<body background="b.jpg">
+    <div class="grid-container1">
+        <div class="item" style="color: bisque;">Monday Schedule </div>
+        
+      </div>
+
+    </div>
+    <div class="grid-container">
+        <div class="grid-item1">Subject</div>
+        <div class="grid-item1">Room</div>
+        <div class="grid-item1">Time</div>  
+        <div class="grid-item">Physical Education 3</div>
+        <div class="grid-item">8:00-10:00 am</div>
+        <div class="grid-item">EPAS</div>  
+        <div class="grid-item">Discrete Structures</div>
+        <div class="grid-item">12:30 - 2:00 pm</div>
+        <div class="grid-item">DR</div>
+        <div class="grid-item">Filipino sa Iba't-ibang Disiplina</div>
+        <div class="grid-item">5:00-6:30 pm
+            <br>6:30-8:00 pm
+        </div>
+        <div class="grid-item">303
+            <br>Online
+        </div>  
+      </div>
+
+    
+    
+    
+</body>
+</html>
