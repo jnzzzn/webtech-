@@ -1,0 +1,42 @@
+img{
+    padding: 10%;
+    margin: auto;
+}
+li{
+    text: align last 1px; ;
+    padding: 10px;
+    color: #1a1919;
+}
+.container{
+    color: #02423d;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(12, 12, 12);
+    gap: 10%;
+    
+}
+
+
+.column {
+    background-color: rgb(147, 149, 151);
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
