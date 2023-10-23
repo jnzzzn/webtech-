@@ -16,7 +16,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     color: rgb(12, 12, 12);
-    gap: 10%;
+    padding: 2%;
     
 }
 
@@ -30,7 +30,7 @@ p{
   
 
   .row::after {
-    content: "";
+    
     display: table;
     clear: both;
   }
